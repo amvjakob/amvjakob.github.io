@@ -1,0 +1,19 @@
+{% include base_path %}
+
+<h2 class="archive__item-title" itemprop="headline">
+  {% if post.paper and post.paper != "" %}
+    <a href="{{ post.paper }}" target="_blank">{{ post.title }}</a>
+  {% else %}
+    {{ post.title }}
+  {% endif %}
+  {% if post.code and post.code != "" %}
+    <a href="{{ post.code }}" target="_blank"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a>
+  {% endif %}
+</h2>
+<p class="archive__item-publication" itemprop="description">{{ post.authors_before }}<b>Anthony M. V. Jakob</b>{{ post.authors_after }}</p>
+{% if post.categories %}
+{% assign current = post %}
+{% include category-list-single.html %}
+{% endif %}
+
+<br>

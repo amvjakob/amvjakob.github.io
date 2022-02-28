@@ -262,17 +262,20 @@
 }
 
 .page__taxonomy-item {
+  font-size: 70%;
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 8px;
-  padding: 5px 10px;
-  text-decoration: none;
-  border: 1px solid $light-gray;
-  border-radius: $border-radius;
+  padding: 4px 6px;
+  text-decoration: none !important;
+  border: 1px solid $link-color;
+  border-radius: 16px;
 
   &:hover {
     text-decoration: none;
     color: $link-color-hover;
+    border-color: $link-color-hover;
+    background-color: $lighter-gray;
   }
 }
 
