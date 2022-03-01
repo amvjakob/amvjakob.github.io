@@ -22,5 +22,5 @@ in deep learning applications for neuroscience. I am also curious about how new
 insights from neuroscience could translate into improvements in the current state
 of the art of machine learning models.
 
-If I'm not coding, you might find me at a chess board :zap:, at the gym :running:
-or out hiking :deciduous_tree:!
+If I'm not coding, you might find me at a chess board ⚡, at the gym 🚵
+or out hiking 🌄!
